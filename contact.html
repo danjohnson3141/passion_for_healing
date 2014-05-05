@@ -41,19 +41,19 @@
         <form id="contact-form" action="contact.php" method="post">
           <p>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" value="" />
+            <input type="text" name="name" id="name" value="" required="true" class="contact-form-field"/>
           </p>
           <p>
             <label for="email">Email:</label>
-            <input type="text" name="email" id="email" value=""  />
+            <input type="email" name="email" id="email" value="" class="contact-form-field"/>
           </p>
           <p>
             <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject" value=""  />
+            <input type="text" name="subject" id="subject" value="" required="true" class="contact-form-field"/>
           </p>
           <p>
             <label for="message">Message:</label>
-            <textarea name="message" id="message" rows="5" cols="20"></textarea>
+            <textarea name="message" id="message" rows="5" cols="20" class="contact-form-field"></textarea>
           </p>
           <p>
             <label>&nbsp;</label>
@@ -68,9 +68,8 @@
         <!-- end map -->
         
         <div class="no-box social-network">
-          <p><strong>You may contact Dr. Mindy Curry directly by phone at 
-            503-995-8674 or email.</strong></p>
-          <p>Dr. Curry is currently offering House Calls within the Greater Portland area including nearby Lake Oswego, West Linn, Oregon City, Hillsdale, Gresham, Estacada, Hillsboro, Beaverton and others.</p>
+          <p><strong>You may contact Dr. Mindy Curry directly by phone at <br />503-995-8674 or email.</strong></p>
+          <p>Dr. Curry sees patients at her Milwaukie office and also makes House Calls within the Greater Portland area including nearby Lake Oswego, West Linn, Oregon City, Hillsdale, Gresham, Estacada, Hillsboro, Beaverton and others.</p>
         </div>
         <!-- end no-box --> 
         

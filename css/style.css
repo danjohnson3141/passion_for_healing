@@ -523,6 +523,8 @@ a.thumb img {
 }
 .send_btn {
 	border:none;
+	border-radius: 8px;
+	box-shadow: 2px 2px 1px;
 	padding:10px 20px;
 	background:#8e8a73;
 	text-transform:uppercase;
@@ -530,6 +532,9 @@ a.thumb img {
 	font-size:18px;
 	font-weight:normal;
 	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.send_btn:hover{
+	background: black;
 }
 #main-content #content .errorMsg h3 {
 	color:red;
@@ -677,4 +682,8 @@ img.alignleft {
 /*clear fix*/
 .clearfix {
 	clear:both;
+}
+.contact-form-field {
+	border-radius: 10px;
+	background: #efecda !important;
 }
