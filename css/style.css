@@ -69,7 +69,7 @@ a:hover {
 	color:#848175;
 	float:left;
 	padding:5px 10px 5px 10px;
-	margin-right: 2px;
+	margin-right: 5px;
 	text-decoration:none;
 	margin-top: 60px;
 	border-radius: 8px;
@@ -524,7 +524,7 @@ a.thumb img {
 .send_btn {
 	border:none;
 	border-radius: 8px;
-	box-shadow: 2px 2px 1px;
+	box-shadow: 2px 2px 3px gray;
 	padding:10px 20px;
 	background:#8e8a73;
 	text-transform:uppercase;
@@ -534,7 +534,7 @@ a.thumb img {
 	font-family:Georgia, "Times New Roman", Times, serif;
 }
 .send_btn:hover{
-	background: black;
+	background: #bcb59e;
 }
 #main-content #content .errorMsg h3 {
 	color:red;
