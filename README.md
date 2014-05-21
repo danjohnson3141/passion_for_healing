@@ -1,4 +1,4 @@
-passion_for_healing
+Passion for Healing
 ===================
 
 Passion for Healing Naturopathic. The website of Dr. Mindy Curry, ND
