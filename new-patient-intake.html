@@ -29,7 +29,10 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+$(document).ready(function(){
+});
+</script>
 <div id="page">
   <div id="wrap">
     <div id="header">
@@ -75,7 +78,7 @@
           </tr>
           <tr>
           <td colspan="4">Are you currently receiving healthcare? &nbsp;&nbsp;&nbsp;&nbsp;
-          <input type="radio" name="receiving_healthcare" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="receiving_healthcare" value="no" checked> No</td>
+          <input type="radio" name="receiving_healthcare" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="receiving_healthcare" value="no"> No</td>
           </tr>
           <tr>
           <td colspan="4">If yes, where and from whom?<br>
@@ -193,7 +196,7 @@
           <tr>
           <td colspan="4">Height: <input type="number" name="" id="">
           Weight (lbs): <input type="number" name="" id="">
-          Unexplained weight gain/loss? <input type="radio" name="unexplained_weight" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="unexplained_weight" value="no" checked> No</td>
+          Unexplained weight gain/loss? <input type="radio" name="unexplained_weight" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="unexplained_weight" value="no"> No</td>
           </tr>
           <tr>
           <td colspan="4">Maximum Weight: <input type="number" name="" id="">
@@ -227,22 +230,68 @@
           <tr><td>Dinner:</td><td colspan="3"> <input type="text" name="" id="" style="width: 600px"></td></tr>
           <tr><td>Snacks:</td><td colspan="3"> <input type="text" name="" id="" style="width: 600px"></td></tr>
           <tr><td>Deserts/Candy:</td><td colspan="3"> <input type="text" name="" id="" style="width: 600px"></td></tr>
+          <tr><td colspan="4">Water (cups): <input type="number" name="" id="" style="width: 50px"> Soda/juices/energy drinks: <input type="number" name="" id="" style="width: 50px"> Coffee/tea: <input type="number" name="" id="" style="width: 50px"></td></tr>
           <tr>
-          <td colspan="4">Water (cups): <input type="number" name="" id="" style="width: 50px"> Soda/juices/energy drinks: <input type="number" name="" id="" style="width: 50px"> Coffee/tea: <input type="number" name="" id="" style="width: 50px"></td></tr>
-          <tr>
-          <td colspan="2">Do you eat three meals a day? <input type="radio" name="three_meals" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="three_meals" value="no" checked> No</td>
-          <td colspan="2">Do you go on diets often? <input type="radio" name="diet_often" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="diet_often" value="no" checked> No</td></tr>
-          <td colspan="4">Do you eat out often? &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="eat_out" value="no" checked> No &nbsp;&nbsp;&nbsp;&nbsp;If yes how often? <input type="text" name="" id=""></td>
-          </td>
+            <td colspan="2">
+              Do you eat three meals a day? 
+              <input type="radio" name="three_meals" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="three_meals" value="no"> No
+            </td>
+            <td colspan="2">
+              Do you go on diets often? 
+              <input type="radio" name="diet_often" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="diet_often" value="no"> No
+            </td>
           </tr>
           <tr>
-          <td colspan="4">
-          Do you eat refined sugars? <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="eat_out" value="no" checked> No &nbsp;&nbsp;
-          Do you add salt? <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="eat_out" value="no" checked> No &nbsp;&nbsp;
-          Fried foods regularly? <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;<input type="radio" name="eat_out" value="no" checked> No &nbsp;&nbsp;
-          </td>
+            <td colspan="4">
+              Do you eat out often? &nbsp;&nbsp;&nbsp;&nbsp;
+              <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="eat_out" value="no"> No &nbsp;&nbsp;&nbsp;&nbsp;
+              If yes how often? <input type="text" name="" id="">
+            </td>
           </tr>
-
+          <tr>
+            <td colspan="4">
+              Do you eat refined sugars? 
+              <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="eat_out" value="no"> No &nbsp;&nbsp;
+              Do you add salt? 
+              <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="eat_out" value="no"> No &nbsp;&nbsp;
+              Fried foods regularly? 
+              <input type="radio" name="eat_out" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="eat_out" value="no"> No &nbsp;&nbsp;
+            </td>
+          </tr>
+          <tr><td colspan="4"><strong>Habits</strong></td></tr>
+          <tr>
+            <td colspan="4">Main interests and hobbies:<br />
+            <textarea name="health_complaints" id="health_complaints" rows="3" class="intake-form-field intake-wide"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="4">
+              Enjoy your work? 
+              <input type="radio" name="enjoy_work" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="enjoy_work" value="no"> No &nbsp;&nbsp;
+              Take vacations? 
+              <input type="radio" name="take_vacation" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="take_vacation" value="no"> No &nbsp;&nbsp;
+              Spend time outside?  
+              <input type="radio" name="spend_time_outside" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="spend_time_outside" value="no"> No &nbsp;&nbsp;
+            </td>
+          </tr>
+            <td colspan="4">
+              Do you have a religious or spiritual practice? 
+              <input type="radio" name="religion" value="yes"> Yes &nbsp;&nbsp;
+              <input type="radio" name="religion" value="no"> No &nbsp;&nbsp;
+              If yes, what?  
+              <input type="text" name="religion_type" value="yes">
+            </td>
+          </tr>
+          
         </table>
         </form>
       </div>
