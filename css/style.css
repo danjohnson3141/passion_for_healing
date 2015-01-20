@@ -687,7 +687,35 @@ img.alignleft {
 	border-radius: 10px;
 	background: #efecda !important;
 }
-
+.intake-form-field input:not([type=submit]):not([type=file]) {
+	border-radius: 10px;
+	background: #efecda !important;
+	border:2px solid #d1cebd;
+	padding:8px;
+	color:#5e5e5e;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.intake-form-field textarea {
+	border-radius: 10px;
+	background: #efecda !important;
+	border:2px solid #d1cebd;
+	padding:8px;
+	color:#5e5e5e;
+	font-size:16px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.intake-wide {
+	width: 100%
+}
+.progress {
+	text-align: center; 
+	font-weight: bold; 
+	background: darkkhaki; 
+	padding-top: 20px;
+	color: darkgreen;
+	border-radius: 10px;
+}
 blockquote {
   background: #F1EFD9;
   margin: 1.5em 10px;
@@ -727,4 +755,7 @@ blockquote cite {
 }
 blockquote cite:before {
 	content: "\2014 \2009";
+}
+td {
+	/*border: 1px solid #000;*/
 }
