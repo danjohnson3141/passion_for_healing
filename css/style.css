@@ -41,17 +41,17 @@ a:hover {
 }
 #logo2 {
 	float:left;
-	height:150px;
+	/*height:150px;*/
 	padding-top:20px;
 	text-indent:-999999px;
-	width:426px;
+	/*width:426px;*/
 }
 #logo2 a {
-	background:url(../images/logo3.png) no-repeat;
+	background:url(../images/logo4.png) no-repeat;
 	cursor:pointer;
 	display:block;
-	height:150px;
-	width:426px;
+	height:100px;
+	width:300px;
 }
 #main-nav {
 	float:right;
@@ -686,4 +686,45 @@ img.alignleft {
 .contact-form-field {
 	border-radius: 10px;
 	background: #efecda !important;
+}
+
+blockquote {
+  background: #F1EFD9;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote.left {
+  border-left: 10px solid #ccc;
+}blockquote.right {
+  border-right: 10px solid #ccc;
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:after {
+	color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+  padding-left: 520px;
+}
+blockquote p {
+  display: inline;
+}
+blockquote cite {
+	color: #999999;
+	font-size: 14px;
+	display: block;
+	margin-top: 5px;
+}
+blockquote cite:before {
+	content: "\2014 \2009";
 }
