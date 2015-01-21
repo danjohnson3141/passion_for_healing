@@ -712,7 +712,7 @@ img.alignleft {
 	text-align: center; 
 	font-weight: bold; 
 	background: darkkhaki; 
-	padding-top: 20px;
+	padding: 20px 10px 20px 10px;
 	color: darkgreen;
 	border-radius: 10px;
 	font-size:20px;
