@@ -5,12 +5,12 @@ body {
 	text-shadow:0 1px 0 rgba(255,255,255,.8);
 }
 a {
-	color:#161510;
-	text-decoration:none;
+	/*color:#161510;*/
+	text-decoration:underline;
 }
 a:hover {
-	color:#9e9c92;
-	text-decoration:none;
+	color:#0B6385;
+	text-decoration:underline;
 }
 #page {
 	background:url(../images/mosaic_bg.jpg) repeat-x;
