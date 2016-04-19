@@ -777,3 +777,41 @@ input[type=text]:focus, textarea:focus {
   margin: 5px 1px 3px 0px;*/
   border: 1px solid rgba(81, 203, 238, 1);
 }
+
+/* always assume on smaller screen first */
+
+#opencare-div {
+    visibility: hidden;
+    text-align: center; 
+    width: 200px; 
+    position: absolute; 
+    top: 30px;
+}
+#verified_by {
+    visibility: hidden;
+}
+
+/* if screen size gets wider than 1024 */
+
+@media screen and (min-width:1124px){
+    #opencare-div {
+        visibility: visible;
+        zoom: .7;
+    }
+    #verified_by {
+        visibility: hidden;
+    }
+}
+
+/* if screen size gets wider than 1024 */
+
+@media screen and (min-width:1300px){
+    #opencare-div {
+        visibility: visible;
+        zoom: .9;
+    }
+
+    #verified_by {
+        visibility: visible;
+    }
+}
