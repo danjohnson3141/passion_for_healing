@@ -1,7 +1,8 @@
 body {
 	background:#e8e4d2 url(../images/body_bg.jpg) repeat;
 	color:#5a5850;
-	font:16px/1.5em Georgia, "Times New Roman", serif;
+	/*font:16px/1.5em Georgia, "Times New Roman", serif;*/
+	font:16px/1.5em "Trebuchet MS", Helvetica, sans-serif;
 	text-shadow:0 1px 0 rgba(255,255,255,.8);
 }
 a {
@@ -101,7 +102,8 @@ a:hover {
 	float:left;
 }
 #content h2, #content h3, #content h4, #wide-content h2, #wide-content h3, #wide-content h4, #sidebar h2, #sidebar h3, #sidebar h4 {
-	font-family:Georgia, "Times New Roman", serif;
+	/*font-family:Georgia, "Times New Roman", serif;*/
+	font-family:"Trebuchet MS", Helvetica, sans-serif
 	margin-bottom:20px;
 }
 #content h2, #wide-content h2 {
@@ -410,7 +412,8 @@ blockquote p cite {
 	float:left;
 	width:100%;
 	font-size:11px;
-	padding-bottom:50px;
+	padding-bottom:10px;
+	text-align: center;
 }
 #twitter_update_list {
 	padding-bottom:20px;
