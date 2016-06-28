@@ -791,7 +791,20 @@ input[type=text]:focus, textarea:focus {
     visibility: hidden;
 }
 
-/* if screen size gets wider than 1024 */
+.vid {
+	width: 480px; 
+	height: 270px;
+    padding: 5px 5px 10px 5px;
+    background: beige;
+}
+/* if screen width goes below 830px */
+@media screen and (max-width:830px){
+    .vid {
+        width: 320px;
+        height: 180px;
+    }
+}
+/* if screen size gets wider than 1024px */
 
 @media screen and (min-width:1124px){
     #opencare-div {
@@ -803,7 +816,7 @@ input[type=text]:focus, textarea:focus {
     }
 }
 
-/* if screen size gets wider than 1024 */
+/* if screen size gets wider than 1300px */
 
 @media screen and (min-width:1300px){
     #opencare-div {
