@@ -176,6 +176,12 @@ a:hover {
 	border-right:1px solid #dad7c9;
 	color:#000;
 }
+.side-nav-selected {
+	background:#fff url(../images/side_nav_bg.gif) repeat-x;
+	border-left:1px solid #dad7c9;
+	border-right:1px solid #dad7c9;
+	color:#000;
+}
 #sidebar .no-box {
 	width:260px;
 	padding:20px;
@@ -831,4 +837,9 @@ input[type=text]:focus, textarea:focus {
     #verified_by {
         visibility: visible;
     }
+}
+
+.side-box-nav {
+	height: 280px;
+	    background: url(../images/sidebox_mid.gif) repeat-y;
 }
