@@ -103,7 +103,7 @@ a:hover {
 }
 #content h2, #content h3, #content h4, #wide-content h2, #wide-content h3, #wide-content h4, #sidebar h2, #sidebar h3, #sidebar h4 {
 	/*font-family:Georgia, "Times New Roman", serif;*/
-	font-family:"Trebuchet MS", Helvetica, sans-serif
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 	margin-bottom:20px;
 }
 #content h2, #wide-content h2 {
@@ -506,7 +506,8 @@ a.thumb img {
 	float:left;
 	width:120px;
 	font-size:14px;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif
 }
 #main-content #content #contact-form p {
 	padding-bottom:0px;
@@ -517,7 +518,8 @@ a.thumb img {
 	padding:8px;
 	color:#5e5e5e;
 	font-size:16px;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	/*font-family:Georgia, "Times New Roman", Times, serif;*/
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background:none;
 }
 #name:focus, #email:focus, #subject:focus, #message:focus {
@@ -525,23 +527,23 @@ a.thumb img {
 	padding:8px;
 }
 #name, #email, #subject {
-	width:285px;
+	width:330px;
 }
 #message {
-	width:350px;
+	width:470px;
 	height:200px;
 }
 .send_btn {
-	border:none;
+	border: none;
 	border-radius: 8px;
 	box-shadow: 2px 2px 3px gray;
-	padding:10px 20px;
-	background:#8e8a73;
-	text-transform:uppercase;
-	color:#f1f1e8;
-	font-size:18px;
-	font-weight:normal;
-	font-family:Georgia, "Times New Roman", Times, serif;
+	padding: 10px 20px;
+	background: #8e8a73;
+	/*text-transform:uppercase;*/
+	color: #f1f1e8;
+	font-size: 18px;
+	font-weight: normal;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 .send_btn:hover{
 	background: #bcb59e;

@@ -49,30 +49,43 @@
         <p>Please call 503-995-8674 or send me an e-mail at <a href="mailto:info@passionforhealingnaturopathic.com" title="info@passionforhealingnaturopathic.com">info@passionforhealingnaturopathic.com </a> to schedule an appointment, with questions regarding services or house call service areas. 
         <p>Appointments outside the reasonable service area are subject to higher rates to be negotiated on a case by case basis.  Dr. Curry is committed to providing you with all the convenience, privacy and dignity a Naturopathic House Call can offer.  Office visits are also now available (by appointment only).</p>
         <p>Also follow Dr. Curry on her <a href="https://www.facebook.com/pages/Passion-For-Healing-Naturopathic/629720527056088?fref=ts">facebook</a>, <a href="https://twitter.com/Drmindycurry">twitter</a>, and <a href="https://www.youtube.com/channel/UC6JhthNtbXR4RhTVba4PENw">Youtube channel</a>.
-        <form id="contact-form" action="contact.php" method="post">
+        <!-- <form id="contact-form" action="contact.php" method="post">
           <p>
             <label for="name">Name:</label>
-            <input type="text" name="name" id="name" value="" required="true" class="contact-form-field"/>
+            <input type="text" name="name" id="name" value="" required="true" class="contact-form-field" placeholder="Your name..." />
           </p>
           <p>
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" value="" class="contact-form-field"/>
+            <input type="email" name="email" id="email" value="" class="contact-form-field" placeholder="Email address..." />
           </p>
           <p>
             <label for="subject">Subject:</label>
-            <input type="text" name="subject" id="subject" value="" required="true" class="contact-form-field"/>
+            <input type="text" name="subject" id="subject" value="" required="true" class="contact-form-field" placeholder="A breif subject..." maxlength="255" />
           </p>
           <p>
             <label for="message">Message:</label>
-            <textarea name="message" id="message" rows="5" cols="20" class="contact-form-field"></textarea>
+            <textarea name="message" id="message" rows="5" cols="20" class="contact-form-field" placeholder="Type your message to Dr. Curry here..." maxlength="2000"></textarea>
           </p>
           <p>
             <label>&nbsp;</label>
             <input type="submit" value="Submit Form" name="submit" class="send_btn"/>
+            <button onclick="sendMail(); return false">Send</button>
           </p>
-        </form>
+        </form> -->
+        <br><br>
+        <button class="send_btn"><a href="mailto:info@passionforhealingnaturopathic.com" title="info@passionforhealingnaturopathic.com" style="text-decoration: none; color: white">Email Dr. Curry </a></button>
       </div>
       <!--end content-->
+      <script type="text/javascript">
+        function sendMail() {
+          var link = "mailto:drj3141@gmail.com"
+                   + "&subject=" + encodeURIComponent($('#subject').val())
+                   + "&body=" + encodeURIComponent($('#body').val())
+          ;
+
+          window.location.href = link;
+      }
+      </script>
       
       <div id="sidebar">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2801.6965013855056!2d-122.61410568580594!3d45.395292746062026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495743dc4793145%3A0x36d26eb86255ed7e!2s4998+SE+Briar+Ct%2C+Milwaukie%2C+OR+97267!5e0!3m2!1sen!2sus!4v1467153857634" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
