@@ -729,44 +729,45 @@ img.alignleft {
 	border-radius: 10px;
 	font-size:20px;
 }
-blockquote {
+blockquote.testimonials {
   background: #F1EFD9;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
   quotes: "\201C""\201D""\2018""\2019";
 }
-blockquote.left {
+blockquote.left.testimonials  {
   border-left: 10px solid #ccc;
-}blockquote.right {
+}
+blockquote.right.testimonials {
   border-right: 10px solid #ccc;
 }
-blockquote:before {
+blockquote.testimonials:before {
   color: #ccc;
   content: open-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-blockquote:after {
+blockquote.testimonials:after {
 	color: #ccc;
   content: close-quote;
-  font-size: 4em;
+  font-size: 3em;
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
   padding-left: 520px;
 }
-blockquote p {
+blockquote.testimonials p.testimonials {
   display: inline;
 }
-blockquote cite {
+cite.testimonials {
 	color: #999999;
 	font-size: 14px;
 	display: block;
 	margin-top: 5px;
 }
-blockquote cite:before {
+blockquote.testimonials cite.testimonials:before {
 	content: "\2014 \2009";
 }
 td {
