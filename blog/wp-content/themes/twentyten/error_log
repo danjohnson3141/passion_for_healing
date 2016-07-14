@@ -1,3 +1,0 @@
-[20-Oct-2012 09:08:50] PHP Fatal error:  Call to undefined function  get_header() in /home/passionf/public_html/blog/wp-content/themes/twentyten/index.php on line 16
-[13-Sep-2013 07:07:15] PHP Fatal error:  Call to undefined function  get_header() in /home/passionf/public_html/blog/wp-content/themes/twentyten/index.php on line 16
-[20-Dec-2013 11:02:07] PHP Fatal error:  Call to undefined function  get_header() in /home/passionf/public_html/blog/wp-content/themes/twentyten/index.php on line 16
