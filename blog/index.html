@@ -25,11 +25,13 @@
 $(function(){
   $("#blog_001").click(function(e) {
     e.preventDefault();
-    $("#post-546").toggleClass('hide')
+    $("[id^=post-]").hide()
+    $("#post-546").show()
   });
   $("#blog_002").click(function(e) {
+    $("[id^=post-]").hide()
     e.preventDefault();
-    $("#post-535").toggleClass('hide')
+    $("#post-535").show()
   });
 
 //   $( "#other" ).click(function() {
@@ -41,6 +43,8 @@ $(function(){
     float: right;
     width: 220px;
     background: white;
+    border-radius: 5px;
+    box-shadow: 2px;
     border: 1px solid wheat;
     padding: 5px;
     font-size: small;
@@ -48,6 +52,9 @@ $(function(){
   }
   .entry-meta {
     font-size: small;
+  }
+  .author {
+    font-weight: bolder;
   }
   h1 {
     font-size: larger;
@@ -123,15 +130,18 @@ $(function(){
       <!--end content-->
       <hr>
       
-      <div id="post-546" class="post-546 post type-post status-publish format-standard has-post-thumbnail hentry category-herbal-reviews category-mens-health category-sexual-health tag-aphrodisiac tag-fertility tag-libido tag-maca tag-male-fertility tag-mens-health-2 tag-prostate tag-prostate-health tag-sexual-desire tag-shrink-prostate tag-sperm-production tag-testosterone hide">
+      <div id="post-546" class="post-546 post type-post status-publish format-standard has-post-thumbnail hentry category-herbal-reviews category-mens-health category-sexual-health tag-aphrodisiac tag-fertility tag-libido tag-maca tag-male-fertility tag-mens-health-2 tag-prostate tag-prostate-health tag-sexual-desire tag-shrink-prostate tag-sperm-production tag-testosterone ">
         <h1 class="entry-title">Maca for the Potent Male</h1>
 
         <div class="entry-meta">
-          <span class="meta-prep meta-prep-author">Posted on</span> March 1, 2015</span> by <span class="author vcard">Dr. Curry</span>
+          <span class="meta-prep meta-prep-author">Posted on</span> March 1, 2015</span> by <span class="author vcard">Dr. Mindy Curry, ND</span>
+          <hr>
         </div>
 
         <div class="entry-content">
-          </a><strong>Lepidium meyenii (maca)</strong> is a cruciferous plant which is grows at altitudes of 4,000-4,500 m in the Peruvian Central Andes. Maca is traditionally used for both food and medicinal properties. Over the past 20 years increasing global interest in Maca has made Maca a major Peruvian export.&nbsp; Maca is exported in several forms including capsules, pills, powder, flour, liquor, and extracts. There are different types of maca with different colors ranging from white to black. The type of maca and location of harvest is not generally indicated in maca supplements.&nbsp; This may be a problem if you are hoping for specific effects from your maca supplement.&nbsp; In the last decade the pharmacological effects of 3 types of maca, yellow, black, and red maca have been studied.</p>
+          <img class="" src="uploads/maca1.jpeg" alt="maca1">
+          <img class="" src="uploads/maca3.jpeg" alt="maca3" height="163">
+          <p><strong>Lepidium meyenii (maca)</strong> is a cruciferous plant which is grows at altitudes of 4,000-4,500 m in the Peruvian Central Andes. Maca is traditionally used for both food and medicinal properties. Over the past 20 years increasing global interest in Maca has made Maca a major Peruvian export.&nbsp; Maca is exported in several forms including capsules, pills, powder, flour, liquor, and extracts. There are different types of maca with different colors ranging from white to black. The type of maca and location of harvest is not generally indicated in maca supplements.&nbsp; This may be a problem if you are hoping for specific effects from your maca supplement.&nbsp; In the last decade the pharmacological effects of 3 types of maca, yellow, black, and red maca have been studied.</p>
           <p>&nbsp;Research indicates maca affects nutrition, fertility, memory, and mood. Black maca has shown to increase sperm while yellow maca has only moderate effects, and red maca has no effect at all on sperm production. However, red maca has been shown to reduce prostate size in rat studies with yellow maca showing only moderate prostate shrinking effects, and here it is black maca that shows no effect. Maca has also been shown to improve sperm production, sperm motility, and semen volume. Most studies show serum levels of testosterone, estradiol, LH, FSH, and prolactin are not affected. How these sexual health effects are produced without apparent effects on sex hormones is still being explored.&nbsp; Some sources suggest that perhaps maca helps activate the hormones, others think maca activates DNA, still others think a completely new mechanism may be responsible.</p>
           <p>Regardless about how maca causes these enhancements in men’s sexual health, recent research clearly indicates that various bioactive constituents contribute to the clinical effects reported. Randomized clinical trials have shown that maca has favorable effects on energy and mood, may decrease anxiety and improve sexual desire.&nbsp; Many naturopathic clinicians I know have reported that using specific maca formulations that take into consideration the type of maca used have improved clinical results beyond those seen with maca supplements sourced without regards to phenotype.&nbsp; If you’ve tried maca before, you may not have been taking the right kind for what ails you.&nbsp; Come in for a consultation and together we can determine if maca would be a good addition to your overall men’s health and wellness plan. If you are interested in reading more about maca check out these links that do a pretty good job summarizing the recent research on maca and why in this case the colors do matter:&nbsp; <a href="/web/20150702132034/http://www.naturalnews.com/042635_maca_root_superfood_sustained_energy.html">http://www.naturalnews.com/042635_maca_root_superfood_sustained_energy.html</a></p>
           <p><a href="/web/20150702132034/http://beta.naturalhi.com/media/downloads/awakes_letterhead_are_you_using_the_right_maca.pdf">http://beta.naturalhi.com/media/downloads/awakes_letterhead_are_you_using_the_right_maca.pdf</a></p>
@@ -141,40 +151,40 @@ $(function(){
           This entry was posted in <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/category/herbal-reviews/" title="View all posts in Herbal Reviews" rel="category tag">Herbal Reviews</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/category/mens-health/" title="View all posts in Men's Health" rel="category tag">Men's Health</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/category/sexual-health/" title="View all posts in Sexual Health" rel="category tag">Sexual Health</a> and tagged <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/aphrodisiac/" rel="tag">aphrodisiac</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/fertility/" rel="tag">fertility</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/libido/" rel="tag">libido</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/maca/" rel="tag">maca</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/male-fertility/" rel="tag">male fertility</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/mens-health-2/" rel="tag">men's health</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/prostate/" rel="tag">prostate</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/prostate-health/" rel="tag">prostate health</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/sexual-desire/" rel="tag">sexual desire</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/shrink-prostate/" rel="tag">shrink prostate</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/sperm-production/" rel="tag">sperm production</a>, <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/tag/testosterone/" rel="tag">testosterone</a>. Bookmark the <a href="/web/20150702132034/http://www.passionforhealingnaturopathic.com/blog/2015/03/maca-for-the-potent-male/" title="Permalink to Maca for the Potent Male" rel="bookmark">permalink</a>.
         </div><!-- .entry-utility -->
         </div>
-        </div>
 
         <div id="post-535" class="post-535 post type-post status-publish format-standard has-post-thumbnail hentry category-dairy-free category-diabetes-management category-gluten-free category-healthy-diet-advise category-recipes category-transition-to-good-food category-uncategorized category-wheat-free tag-cholesterol tag-diabetes tag-fiber tag-gluten-free-2 tag-high-blood-pressure tag-potassium tag-recipes-2 tag-wheat-free-2 tag-whole-grains hide">
           <h1 class="entry-title">Split Pea Soup with Toasted Kasha and Veggies</h1>
 
           <div class="entry-meta">
-            <span class="meta-prep meta-prep-author">Posted on</span> <span class="entry-date">February 17, 2015</span> <span class="meta-sep">by</span> <span class="author vcard">Dr. Curry</span>
+            <span class="meta-prep meta-prep-author">Posted on</span> <span class="entry-date">February 17, 2015</span> <span class="meta-sep">by</span> <span class="author vcard">Dr. Mindy Curry, ND</span>
+            <hr>
           </div><!-- .entry-meta -->
 
           <div class="entry-content">
-            <p style="text-align: left;"><img class="wp-image-540 alignright" src="/web/20150702132024im_/http://www.passionforhealingnaturopathic.com/blog/wp-content/uploads/2015/02/IMG_24601-150x150.jpg" alt="IMG_2460[1]" width="222" height="221">I’ve modified a traditional Jewish Recipe into a delicious split pea soup with extra nutrition from added vegetables and kasha (buckwheat). &nbsp;Buckwheat is a traditional whole grain food that is not related to wheat at all, indeed is actually a very small fruit called an achene and is related to rhubarb, making this a great option for gluten-free diets.<br>
-<a href="/web/20150702132024/http://www.passionforhealingnaturopathic.com/blog/wp-content/uploads/2015/02/buckwheat.jpg"><img class=" wp-image-538 alignright" src="/web/20150702132024im_/http://www.passionforhealingnaturopathic.com/blog/wp-content/uploads/2015/02/buckwheat-150x150.jpg" alt="buckwheat" width="150" height="150"></a></p>
-<p style="text-align: left;">Each cup of cooked kasha supplies 148 mg potassium and only 7 mg sodium, which helps restore balance to our excessively sodium heavy diet and may help normalize high blood pressure. Each cup of cooked kasha, or buckwheat groats, provides 4.5 g dietary fiber, or 18 percent of the daily value. Dietary fiber can help lower levels of LDL, or “bad,” cholesterol in your blood and reduces your risk for constipation. Most Americans get less than half of the recommended amount of fiber, according to the 2010 Dietary Guidelines from the U.S. Department of Health and Human Services. Kasha provides just under 10 percent of the daily value for choline, niacin and iron. Kasha is also a low-glycemic index food, making this great for diabetics.</p>
-<p>Feel free to add a little more or less of any ingredient you want as this recipe can be very flexible. &nbsp;If you want more flavors add a pinch of smoke flavoring, a ham hock, or your substitute your favorite meat&nbsp;stock. &nbsp;Get creative-this is your soup! &nbsp;Enjoy!</p>
-<p>Ingredients:<br>
-1 1/2 cups dried split peas<br>
-1 1/2 cups dried Kasha (buckwheat grouts)<br>
-1 large organic carrot diced<br>
-1 medium organic zucchini diced<br>
-1 organic celery stick diced<br>
-1/2 medium onion diced<br>
-5 cloves of garlic chopped<br>
-6 cups organic vegetable stock (or water)<br>
-1 tbsp chopped fresh basil (1 tsp dry)<br>
-1 tbsp chopped fresh parsley (1 tsp dry)<br>
-1 tsp chopped fresh oregano (1/2 tsp dry)<br>
-1 tsp chopped fresh rosemary (1/2 tsp dry)<br>
-2 tsp chopped fresh thyme (1 tsp dry)<br>
-1/2 chopped fresh jalapeno (optional)<br>
-salt to taste</p>
-<p>Start by rinsing the split peas. Add stock or water and bring to a boil on the stove-top. Reduce heat and simmer until peas are softened, about 25 minutes.</p>
-<p>Toast the Kasha grouts in a pan in a toaster oven or on stove-top until fragrant and slightly browned (not blackened), about five minutes.</p>
-<p>Add the toasted Kasha, the chopped vegetables and herbs to the cooked split peas. Bring to a boil again, then reduce heat to simmer another 25 minutes (or to preferred consistency).</p>
-<p>Serve hot in a bowl. Crack an egg into the soup or sprinkle cheese or broken crackers on top if desired. Pair with toasted bread or a side salad. Then sit back and feel the intense nutrition flood into your happy body! Enjoy!</p>
+            <p style="text-align: left;"><img class="wp-image-540 alignright" src="uploads/IMG_24601-150x150.jpg" alt="IMG_2460[1]" width="222" height="221">I’ve modified a traditional Jewish Recipe into a delicious split pea soup with extra nutrition from added vegetables and kasha (buckwheat). &nbsp;Buckwheat is a traditional whole grain food that is not related to wheat at all, indeed is actually a very small fruit called an achene and is related to rhubarb, making this a great option for gluten-free diets.<br></p>
+            <img class=" wp-image-538 alignleft" src="uploads/buckwheat-150x150.jpg" alt="buckwheat" width="150" height="150">
+            <p style="text-align: left;">Each cup of cooked kasha supplies 148 mg potassium and only 7 mg sodium, which helps restore balance to our excessively sodium heavy diet and may help normalize high blood pressure. Each cup of cooked kasha, or buckwheat groats, provides 4.5 g dietary fiber, or 18 percent of the daily value. Dietary fiber can help lower levels of LDL, or “bad,” cholesterol in your blood and reduces your risk for constipation. Most Americans get less than half of the recommended amount of fiber, according to the 2010 Dietary Guidelines from the U.S. Department of Health and Human Services. Kasha provides just under 10 percent of the daily value for choline, niacin and iron. Kasha is also a low-glycemic index food, making this great for diabetics.</p>
+            <p>Feel free to add a little more or less of any ingredient you want as this recipe can be very flexible. &nbsp;If you want more flavors add a pinch of smoke flavoring, a ham hock, or your substitute your favorite meat&nbsp;stock. &nbsp;Get creative-this is your soup! &nbsp;Enjoy!</p>
+            <p>Ingredients:<br>
+            1 1/2 cups dried split peas<br>
+            1 1/2 cups dried Kasha (buckwheat grouts)<br>
+            1 large organic carrot diced<br>
+            1 medium organic zucchini diced<br>
+            1 organic celery stick diced<br>
+            1/2 medium onion diced<br>
+            5 cloves of garlic chopped<br>
+            6 cups organic vegetable stock (or water)<br>
+            1 tbsp chopped fresh basil (1 tsp dry)<br>
+            1 tbsp chopped fresh parsley (1 tsp dry)<br>
+            1 tsp chopped fresh oregano (1/2 tsp dry)<br>
+            1 tsp chopped fresh rosemary (1/2 tsp dry)<br>
+            2 tsp chopped fresh thyme (1 tsp dry)<br>
+            1/2 chopped fresh jalapeno (optional)<br>
+            salt to taste</p>
+            <p>Start by rinsing the split peas. Add stock or water and bring to a boil on the stove-top. Reduce heat and simmer until peas are softened, about 25 minutes.</p>
+            <p>Toast the Kasha grouts in a pan in a toaster oven or on stove-top until fragrant and slightly browned (not blackened), about five minutes.</p>
+            <p>Add the toasted Kasha, the chopped vegetables and herbs to the cooked split peas. Bring to a boil again, then reduce heat to simmer another 25 minutes (or to preferred consistency).</p>
+            <p>Serve hot in a bowl. Crack an egg into the soup or sprinkle cheese or broken crackers on top if desired. Pair with toasted bread or a side salad. Then sit back and feel the intense nutrition flood into your happy body! Enjoy!</p>
                       </div><!-- .entry-content -->
 
 
