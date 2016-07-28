@@ -846,3 +846,7 @@ input[type=text]:focus, textarea:focus {
 	height: 280px;
 	    background: url(../images/sidebox_mid.gif) repeat-y;
 }
+
+.hide {
+	display: none;
+}
